@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background: rgb(2,0,36);
+    background: linear-gradient(65deg, rgba(2,0,36,1) 0%, rgba(0,74,173,1) 100%);
+}
+#header {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(65deg, rgba(2,0,36,1) 0%, rgba(0,74,173,1) 100%);
+    z-index: 100;
+}
+#header-img {
+    max-width: 45vw;
+}
+
+.nav-link2 {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 3vw;
+}
+
+.nav-link2::hover {
+    color: yellow;
+}
+#nav-bar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 56px;
+    background-color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(65deg, rgba(2,0,36,1) 0%, rgba(0,74,173,1) 100%);
+    box-shadow: 10px 0px 90px -11px rgba(0,0,0,0.75);
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+#logo {
+    position: absolute;
+    left: 10px;
+    height: 50px;
+}
+#links {
+    position: absolute;
+    right: 10px;
+    height: 56px;
+    margin-top:18px;
+}
+#about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+#video { 
+    margin: 3vw;
+}
+.desc {
+    width: 30vw;
+}
+
+#about h1 {
+    font-size: 4vw;
+    color: rgba(0,74,173,1);
+    display: block;
+}
+
+.separate {
+    height: 40vh;
+}
+
+#team {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#team p {
+    color: white;
+    font-size: 3vw;
+}
+
+#team .big {
+    font-size: 3.5vw;
+    font-weight: 700;
+    color: yellow;
+}
+
+#competitions{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+
+#roboboat {
+    width: 40vw;
+}
+
+#robosub {
+    width: 40vw;
+}
+
+#competitions h5 {
+    font-size: 4vw;
+    color:rgba(0,74,173,1);
+    margin: 0;
+}
+#competitions .award {
+    font-size:2vw;
+}
+
+#competitions .special {
+    font-size: 1.3vw;
+}
+
+#contact {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contact h4 {
+    font-size: 4vw;
+    color: yellow;
+    margin: 0;
+}
+.btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+    background-color: white;
+}
+
+#email {
+    width: 40vw;
+    height: 3vh;
+}
